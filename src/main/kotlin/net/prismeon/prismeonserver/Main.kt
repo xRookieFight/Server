@@ -54,9 +54,9 @@ fun main(args: Array<String>) {
                     .withRequiredArg()
                     .ofType(Int::class.javaObjectType)
                     .describedAs("Server size")
-            acceptsAll(Arrays.asList("nojline"), "Disables jline and emulates the vanilla console")
+            acceptsAll(Arrays.asList("nojline"), "Disables jline")
             acceptsAll(Arrays.asList("noconsole"), "Disables the console")
-            acceptsAll(Arrays.asList("v", "version"), "Show the CraftBukkit Version")
+            acceptsAll(Arrays.asList("v", "version"), "Show the server Version")
         }
     }
 
