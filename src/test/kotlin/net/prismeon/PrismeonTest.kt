@@ -2,8 +2,7 @@ package net.prismeon
 
 import old.prismeonserver.PrismeonServer
 
-class PrismeonTest {
-    fun a(): Unit {
-        PrismeonServer.instance!!.start()
-    }
+fun main(): Unit {
+    val b: String? = null
+    b.let { println("test $it") }
 }
