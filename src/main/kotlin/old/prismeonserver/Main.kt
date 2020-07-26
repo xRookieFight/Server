@@ -1,4 +1,4 @@
-package net.prismeon.prismeonserver
+package old.prismeonserver
 
 import jline.TerminalFactory
 import jline.UnsupportedTerminal
@@ -14,11 +14,7 @@ import java.util.logging.Level
 import java.util.logging.Logger
 
 fun main(args: Array<String>) {
-    /**
-     * This is the point that server will start,
-     * here we will initalize PrismeonServer and use arguments for some settings
-     */
-    // Todo: Installation script
+
     PrismeonServer() // force init class
 
     PrismeonServer.instance.startTimestamp = System.nanoTime()

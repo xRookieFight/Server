@@ -1,8 +1,6 @@
 package net.prismeon
 
-import net.prismeon.prismeonserver.PrismeonServer
-import org.junit.Test
-import kotlin.test.assertEquals
+import old.prismeonserver.PrismeonServer
 
 class PrismeonTest {
     fun a(): Unit {

@@ -1,4 +1,4 @@
-package net.prismeon.prismeonserver.log
+package old.prismeonserver.log
 
 import org.apache.logging.log4j.core.AbstractLifeCycle
 import org.apache.logging.log4j.core.Filter

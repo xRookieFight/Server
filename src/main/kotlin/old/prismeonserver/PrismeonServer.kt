@@ -1,9 +1,9 @@
-package net.prismeon.prismeonserver
+package old.prismeonserver
 
 import jline.console.ConsoleReader
-import net.prismeon.prismeonserver.log.ForwardLogHandler
-import net.prismeon.prismeonserver.log.LoggerOutputStream
-import net.prismeon.prismeonserver.log.TerminalConsoleWriterThread
+import old.prismeonserver.log.ForwardLogHandler
+import old.prismeonserver.log.LoggerOutputStream
+import old.prismeonserver.log.TerminalConsoleWriterThread
 import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger

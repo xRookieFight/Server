@@ -1,7 +1,7 @@
-package net.prismeon.prismeonserver.log
+package old.prismeonserver.log
 
 import jline.console.ConsoleReader
-import net.prismeon.prismeonserver.PrismeonServer.Companion.instance
+import old.prismeonserver.PrismeonServer.Companion.instance
 import java.io.IOException
 import java.io.OutputStream
 import java.util.logging.Level
