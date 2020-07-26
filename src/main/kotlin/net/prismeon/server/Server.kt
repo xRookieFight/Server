@@ -1,21 +1,24 @@
 package net.prismeon.server
 
 import net.prismeon.Prismeon
+import net.prismeon.network.Network
+import net.prismeon.interfaces.Setupable
+import net.prismeon.interfaces.Startable
 
-class Server {
+class Server : Startable, Setupable {
 
     companion object {
-
         val instance : Server = Server()
+        val network : Network = Network()
     }
 
-    fun start(){
+    override fun start(){
         println("Starting Prismeon Server v${Prismeon.version.getString()}")
     }
 
-    fun setup(){
+    override fun setup(){
     }
 
-    fun stop(){
+    override fun stop(){
     }
 }
