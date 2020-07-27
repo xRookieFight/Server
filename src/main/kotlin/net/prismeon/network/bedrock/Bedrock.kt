@@ -1,13 +1,9 @@
-package net.prismeon.network
+package net.prismeon.network.bedrock
 
 import net.prismeon.interfaces.Startable
+import net.prismeon.network.INetwork
 
-class Network : Startable {
-
-    companion object {
-
-        val info : NetworkInfo = NetworkInfo(407, "1.16.1")
-    }
+class Bedrock : INetwork {
 
     override fun start() {
         TODO("Not yet implemented")
