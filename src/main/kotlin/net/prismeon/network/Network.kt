@@ -1,8 +1,6 @@
 package net.prismeon.network
 
-import net.prismeon.interfaces.Startable
-
-class Network : Startable {
+class Network : INetwork {
 
     companion object {
 
