@@ -1,11 +1,11 @@
 package net.prismeon
 
 import net.prismeon.server.Server
-import net.prismeon.server.Version
+import net.prismeon.server.ServerVersion
 
 object Prismeon {
 
-    val version : Version = Version(1, 0, 0, true)
+    val version : ServerVersion = ServerVersion(1, 0, 0, true)
 
     @JvmStatic
     fun main(args : Array<String>) {
