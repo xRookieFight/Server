@@ -5,7 +5,7 @@ import net.prismeon.network.Network
 import net.prismeon.interfaces.Setupable
 import net.prismeon.interfaces.Startable
 
-class Server : Startable, Setupable {
+class Server : IServer {
 
     companion object {
         val instance : Server = Server()
