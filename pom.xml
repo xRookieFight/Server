@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>pom</packaging>
+    <groupId>net.prismeon</groupId>
+    <artifactId>prismeon</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <issueManagement>
+        <url>https://github.com/Prismeon/Prismeon/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.main.class>net.prismeon.server.Server</project.main.class>
+    </properties>
+
+    <repositories>
+    </repositories>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+    </build>
+</project>
